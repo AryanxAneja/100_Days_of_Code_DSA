@@ -9,7 +9,7 @@ struct node {
 
 int main() {
     int n, value;
-
+    printf("Enter the number of nodes that you want: ");
     scanf("%d", &n);
 
     if(n <= 0) {
